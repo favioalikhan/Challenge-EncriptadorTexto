@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<header>
+    <h1>Encriptador de Texto con <span>JavaScript</span></h1>
+</header>
+<body>
+    <main class="main">
+        <section class="box-1">
+          <form id="form">
+            <label for="input-texto">Escribir con letras minusculas, sin acentos</label>
+            <textarea class="text" id="input-text" name="input-text"  placeholder="Escribe aqui el texto" rows="5" cols="50"></textarea>
+            <div class="btn-container">
+              <input class="btn" id="btn-encrypt" type="submit" value="Encriptar" >
+              <input class="btn" id="btn-decrypt" type="submit" value="Desencriptar">
+            </div>
+          </form>
+        </section>
+      
+        <section class="box-2">
+          <label for="text">Texto:</label>
+          <textarea class="text" id="output-text" name="output-text" rows="5" cols="50"></textarea>    
+          <div class="btn-container">          
+          <input class="btn" id="btn-copy" type="submit" value="Copiar texto" >
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <p>@FavioAlikhan</p>
+      </footer>
+      <script src="js/encrypt.js"></script>
+</body>
+</html>

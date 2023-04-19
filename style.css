@@ -1,0 +1,129 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url(https://caelum-online-public.s3.amazonaws.com/oracle-one-fase2/one-lad-kit-finalizacion/BG_ZOOM_ONE_ESP_%283%29%5B1%5D.png);
+ 
+  background-size: cover;
+  font-family: 'Krub', sans-serif;
+}
+
+.main {
+  max-width: 45rem;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+header {
+
+    margin-top: 10rem;
+}
+h1 {
+  font-size: 3rem;
+  padding: 3rem;
+  text-align: center;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+h1 > span {
+  font-weight: bold; 
+}
+
+.box {
+  padding: 1rem;
+  margin: 0 1rem 0 1rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 0.5rem;
+  height: auto;
+}
+
+label {
+  color: rgb(0, 0, 0);
+  background-color: #e8a711;
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: 0;
+  color: white;
+  width: 45rem;
+  font-weight: bold;
+  background-color:#000dff;
+  padding: 1rem;
+  margin: 1.5px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#00ff3c;
+}
+
+.text{
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-family: sans-serif;
+}
+
+
+
+.error {
+  background-color: #b7322c;    
+  padding: 1rem;    
+  font-size: 1.3rem;    
+  margin: 1rem auto 0;
+  color: white;   
+  text-align: center; 
+  text-transform: uppercase;
+  font-weight: bold;    
+  border-radius: 0.5rem;
+}
+
+.footer {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ffffff;  
+}
+
+.footer .corazon {  
+  color: red;
+  font-weight: bold;
+}
+
+.footer span {  
+  font-weight: bold;
+}
